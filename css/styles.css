@@ -505,7 +505,7 @@ color: var(--footer-text-color);
 .footer-media-title {
     font-family: 'Roboto';
     font-weight: 500;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--footer-text-color);
@@ -521,6 +521,66 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer-soc-link:focus {
     background-color: var(--footer-icon-color);
 }
+
+.footer-media {
+    margin-right: 80px;
+}
+.footer-subscribe {
+    display: block;
+}
+.footer-subscribe-title {
+font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--footer-text-color);
+    margin-bottom: 24px;
+}
+.footer-input {
+width: 264px;
+height: 40px;
+background-color:  transparent;
+border: 1px solid #FFFFFF;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+font-family: 'Roboto';
+font-size: 12px;
+line-height: 2;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+padding-left: 16px;
+margin-right: 24px;
+}
+.footer-input::placeholder {
+font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 2;
+    display: flex;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.footer-input-btn {
+display: flex;
+}
+.btn-subscribe {
+    width: 165px;
+    height: 40px;
+    background: #4D5AE5;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+
 /* Main portfolio */
 
 .hero-portfolio-button-list {
