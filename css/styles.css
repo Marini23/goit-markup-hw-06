@@ -553,6 +553,7 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 padding-left: 16px;
 margin-right: 24px;
+transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-input::placeholder {
 font-family: 'Roboto';
@@ -569,15 +570,33 @@ display: flex;
 .btn-subscribe {
     width: 165px;
     height: 40px;
-    background: #4D5AE5;
+    background-color: #4D5AE5;
     border-radius: 4px;
     border: none;
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    padding-left: 24px;
+    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+.btn-subscribe-text {
+    padding-right: 16px;
+}
+.btn-subscribe:hover {
+    background-color: var(--hover-focus-color);
+}
+.btn-subscribe:focus {
+    background-color: var(--hover-focus-color);
+}
+.footer-input:focus {
+border: 1px solid #979696;
 }
 
 
