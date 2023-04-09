@@ -742,7 +742,7 @@ transform: translateY(0);
 }
 .modal {
     width: 408px;
-    padding-top: 72px;
+    padding: 72px 24px 24px 24px;
     background: var(--modal-background-color);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -774,7 +774,6 @@ transform: translateY(0);
     border: 1px solid rgba(0, 0, 0, 0.1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
-    margin-bottom: 24px;
 }
 .backdrop.is-hidden {
     opacity: 0;
@@ -803,8 +802,8 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
-margin-bottom: 16px;
 margin-top: 72px;
+margin-bottom: 16px;
 }
 .modal-input {
 width: 100%;
@@ -925,6 +924,7 @@ border: 1px solid #404BBF;
     line-height: 1.5;
     letter-spacing: 0.04em;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
 }
 .btn-submit:hover {
     background-color: var(--hover-focus-color);
